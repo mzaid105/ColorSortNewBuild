@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/ColorsSortNewBuild.loader.js";
+      var loaderUrl = buildUrl + "/Test5.loader.js";
       var config = {
-        dataUrl: buildUrl + "/ColorsSortNewBuild.data.unityweb",
-        frameworkUrl: buildUrl + "/ColorsSortNewBuild.framework.js.unityweb",
-        codeUrl: buildUrl + "/ColorsSortNewBuild.wasm.unityweb",
+        dataUrl: buildUrl + "/Test5.data.unityweb",
+        frameworkUrl: buildUrl + "/Test5.framework.js.unityweb",
+        codeUrl: buildUrl + "/Test5.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "AZTechGamesLLC",
         productName: "Water Sort - Color Sorting",
@@ -80,12 +80,12 @@
         // Avoid draining fillrate performance on mobile devices,
         // and default/override low DPI mode on mobile browsers.
         config.devicePixelRatio = 1;
-       
+     
       } else {
         canvas.style.width = "960px";
         canvas.style.height = "600px";
       }
-      canvas.style.background = "url('" + buildUrl + "/ColorsSortNewBuild.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/Test5.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
